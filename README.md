@@ -26,9 +26,8 @@ Thanks!
   -Gordon
 
 **Note:**
-  1. Please remove other versions of the wiringPi first.
-  2. As for Armbian system, you need to update board.sh script file:
-    echo "BOARD=bpi-mX" > /var/lib/bananapi/board.sh
-    For instance:
-> hello
-<!-- MANPAGE: BEGIN EXCLUDED SECTION -->
+
+  1.Please remove other versions of the wiringPi first.
+  2.As for Armbian system, you need to update board.sh script file:
+    * `BPI-M2Berry`: echo "BOARD=bpi-m2u" > /var/lib/bananapi/board.sh
+    * `BPI-M2+`: echo "BOARD=bpi-m2p" > /var/lib/bananapi/board.sh
