@@ -24,3 +24,11 @@ is by sending an email to projects@drogon.net
 Thanks!
 
   -Gordon
+
+**Note:**
+  1. Please remove other versions of the wiringPi first.
+  2. As for Armbian system, you need to update board.sh script file:
+    echo "BOARD=bpi-mX" > /var/lib/bananapi/board.sh
+    For instance:
+> hello
+<!-- MANPAGE: BEGIN EXCLUDED SECTION -->
